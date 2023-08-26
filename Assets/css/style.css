@@ -1,0 +1,56 @@
+/* set pseudo-class global variables */
+
+:root {
+    --main-background-color: rgb(202, 237, 202);
+    --main-container-color: white;
+    --main-text-color: black;
+    /* --header-font: 
+    --main-text-font: */
+    --main-shadow-color: rgb(119, 153, 119);
+    --answer-container-color: rgb(119, 153, 119);
+    --answer-text-color: white;
+}
+
+/* set base styling */
+
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    color: var(--main-text-color);
+}
+
+body {
+    background-color: var(--main-background-color);
+}
+/* navbar */
+
+header nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main content */
+
+main {
+    display: flex;
+    background-color: var(--main-container-color);
+    justify-content: center;
+    align-items: center;
+    /* padding-block: min (30vh, 10rem); */
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px var(--main-shadow-color);
+}
+
+.qs {
+    justify-content: left;
+}
+
+/* .ans {
+    background-color: var(--answer-container-color);
+    color: var(--answer-text-color);
+    border-radius: 10px;
+    justify-content: left;
+} */
