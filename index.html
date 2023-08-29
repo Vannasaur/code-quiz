@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link re="reset-stylesheet" href="./assets/css/reset.css">
+    <link rel="reset-stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script defer src="./assets/script.js"></script>
     <title>Coding Quiz</title>
@@ -14,7 +14,7 @@
     <header>
         <nav>
             <a href="#">View high scores</a>
-            <div id="countdown">countdown placeholder</div>
+            <div id="countdown"></div>
         </nav>
     </header>
     <main>
@@ -23,21 +23,22 @@
             <h2>Rick and Morty Edition</h2>
             <button id="start">Start</button>
         </section>
-        <section class="quiz">
+        <section class="quiz" >
             <div class="qs" id="question"></div>
             <div class="ans" id="answers"></div>
         </section>
-        <section class="final-score-screen">
+        <section class="final-score-screen hide">
             <h2>All done!</h2>
             <div id="user-score"></div>
-            <form>
+            <form id="high-score-form">
                 <label for="user-initials">Enter initials:</label>
                 <input type="text" id="user-initials" name="user-initials">
                 <input type="submit" value="Submit">
             </form>
         </section>
-        <section class="high-score-screen">
+        <section class="high-score-screen hide">
             <h2>High Scores</h2>
+            <div id="savedScoreInfo"></div>
             <button id="restart">Restart</button>
             <button id="clear-high-scores">Clear high scores</button>
         </section>
