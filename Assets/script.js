@@ -19,8 +19,6 @@ let timeInterval;
 let timeLeft = 0;
 let remainingTime = 0;
 
-//might need, user initials as a global variable?
-
 // Quiz array
 
 const quizArray = [
@@ -139,6 +137,7 @@ function renderHighScores() {
     finalScore.classList.add("hide");
     highScoreScreen.classList.remove("hide");
 }
+
 // Processes (Event Listeners)
 
 quiz.addEventListener("click", function (event) {

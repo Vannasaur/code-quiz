@@ -42,6 +42,8 @@ main {
     max-width: fit-content;
 }
 
+/* additional formatting */
+
 .start-screen {
     text-align: center;
 }
@@ -67,5 +69,5 @@ main {
 
 .ans button:hover {
     background-color: var(--button-hover-color);
-    color: var(--button-text-color)
+    color: var(--button-text-color);
 }

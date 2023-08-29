@@ -2,7 +2,7 @@
 
 ## Description
 
-This code quiz was created to test your basic knowledge of Rick and Morty. Originally, the code is supposed to be about JavaScript but I thought this would be more fun. Please see User Story and Acceptance Criteria below: 
+This code quiz was created to test your basic knowledge of Rick and Morty. Originally, the quiz was supposed to be about JavaScript but I thought this would be more fun. Please see User Story and Acceptance Criteria below: 
 
 User Story: 
 
@@ -49,4 +49,6 @@ CSS Reset Stylesheet taken from MeyerWeb's public domain. See below for link to 
 MIT License, please refer to the LICENSE in the repo.
 
 
-![_Users_giovannaluciano_bootcamp_challenges_module-4_index html](https://github.com/Vannasaur/code-quiz/assets/141793843/31f4a4d3-f2a9-456c-b0fd-f52c134c966c)
+<img width="905" alt="Screenshot 2023-08-29 at 9 49 28 AM" src="https://github.com/Vannasaur/code-quiz/assets/141793843/959a10cf-5740-4b33-bc6f-24c4e5c50c5d">
+
+<img width="904" alt="Screenshot 2023-08-29 at 9 49 42 AM" src="https://github.com/Vannasaur/code-quiz/assets/141793843/656530e5-7825-40af-895c-0fc30a2f5f6b">
